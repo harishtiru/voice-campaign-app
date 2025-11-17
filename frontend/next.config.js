@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false,
-  api: {
+/*  api: {
     bodyParser: false
-  },
+  },*/
   output: "standalone",
   experimental: {
     serverActions: true,          // example experimental feature
