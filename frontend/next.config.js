@@ -6,10 +6,10 @@ const nextConfig = {
   },*/
   output: "standalone",
   experimental: {
-    serverActions: true,          // example experimental feature
+    //serverActions: true,          // example experimental feature
     serverMinification: true,     // optional
     optimizeCss: true,            // optional
-    typedRoutes: true             // optional
+    //typedRoutes: true             // optional
   }
 };
 
