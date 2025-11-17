@@ -1,0 +1,16 @@
+{
+  "name": "voice-worker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node worker.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "mongodb": "^6.3.0",
+    "ioredis": "^5.3.2",
+    "axios": "^1.4.0"
+  }
+}

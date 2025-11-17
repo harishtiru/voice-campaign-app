@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///home/test/voice-campaign-app/frontend/pages/index.js"],"sourcesContent":["import Link from \"next/link\";\n\nexport default function Home() {\n  return (\n    <div style={{ padding: 24, fontFamily: \"system-ui, Arial\" }}>\n      <h1>Voice Campaign Dashboard</h1>\n      <p>\n        <Link href=\"/upload\">Upload Contacts CSV</Link>\n      </p>\n      <p>\n        <Link href=\"/create-campaign\">Create Campaign</Link>\n      </p>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,qKAAC;QAAI,OAAO;YAAE,SAAS;YAAI,YAAY;QAAmB;;0BACxD,qKAAC;0BAAG;;;;;;0BACJ,qKAAC;0BACC,cAAA,qKAAC,gIAAI;oBAAC,MAAK;8BAAU;;;;;;;;;;;0BAEvB,qKAAC;0BACC,cAAA,qKAAC,gIAAI;oBAAC,MAAK;8BAAmB;;;;;;;;;;;;;;;;;AAItC"}}]
+}
