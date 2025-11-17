@@ -2,6 +2,7 @@
 FROM node:20-alpine AS builder
 WORKDIR /app
 ENV NODE_ENV=production
+ENV PORT=3000
 # Copy only package files
 COPY package*.json ./
 # Install dependencies
