@@ -4,6 +4,7 @@ WORKDIR /app
 ENV NODE_ENV=production
 ENV PORT=3000
 ENV HOST=0.0.0.0
+ENV NEXT_HOST=0.0.0.0
 # Copy only package files
 COPY package*.json ./
 # Install dependencies
