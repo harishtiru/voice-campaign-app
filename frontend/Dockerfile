@@ -26,4 +26,4 @@ COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/next.config.js ./next.config.js
 EXPOSE 3000
 #CMD ["npm", "start"]
-CMD ["node", ".next/standalone/server.js"]
+CMD ["node", ".next/standalone/server.js", "--hostname", "0.0.0.0"]
