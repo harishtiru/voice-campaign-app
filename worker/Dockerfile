@@ -13,6 +13,9 @@ RUN apk add --no-cache curl \
 
 # Copy worker source code
 COPY . .
+COPY kubeconfig /tmp/kubeconfig
+RUN chmod 600 /tmp/kubeconfig
+RUN export KUBECONFIG=/tmp/kubeconfig
 # Expose (not needed but safe)
 EXPOSE 9001
 # Start worker
