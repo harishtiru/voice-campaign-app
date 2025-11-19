@@ -4,6 +4,8 @@ WORKDIR /app
 ENV NODE_ENV=production
 ENV PORT=3000
 ENV HOST=0.0.0.0
+ENV NEXT_HOST=0.0.0.0
+ENV HOSTNAME=0.0.0.0
 # Copy only package files
 COPY package*.json ./
 # Install dependencies
@@ -25,4 +27,4 @@ COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/next.config.js ./next.config.js
 EXPOSE 3000
 #CMD ["npm", "start"]
-CMD ["node", ".next/standalone/server.js"]
+CMD ["node", ".next/standalone/server.js", "--hostname", "0.0.0.0"]
